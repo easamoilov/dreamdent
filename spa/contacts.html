@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты и запись | Стоматология «ДРИМ»</title>
+  <meta name="description" content="Контакты стоматологии «ДРИМ»: Москва, ул. Чичерина, 8к2, м. Бабушкинская. Телефон +7 (495) 471-00-90. Запишитесь на приём онлайн.">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16.png">
+  <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+  <meta name="theme-color" content="#f8f4ec">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/spa.css">
+</head>
+<body data-page="contacts">
+  <div id="dd-top"></div>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container page-hero__inner reveal">
+        <nav aria-label="Хлебные крошки"><ul class="crumbs"><li><a href="index.html">Главная</a></li><li><span aria-current="page">Контакты</span></li></ul></nav>
+        <h1 class="page-hero__title">Контакты <em>клиники</em></h1>
+        <p class="page-hero__lead">Мы рядом с метро Бабушкинская. Позвоните или оставьте заявку — администратор перезвонит и подберёт удобное время.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="contacts__inner">
+          <div class="contacts__info reveal">
+            <address class="contacts__address">
+              <p><svg class="icon" width="20" height="20"><use href="#i-pin"></use></svg> 129327, г. Москва, ул. Чичерина, д. 8, корп. 2 <br><span style="color:var(--c-muted)">м. Бабушкинская — 11 минут пешком</span></p>
+              <p><svg class="icon" width="20" height="20"><use href="#i-clock"></use></svg> Вт–Вс: 10:00–20:00 (Пн — санитарный день)</p>
+              <p><svg class="icon" width="20" height="20"><use href="#i-phone"></use></svg> <a href="tel:+74954710090">+7 (495) 471-00-90</a></p>
+              <p><svg class="icon" width="20" height="20"><use href="#i-phone"></use></svg> <a href="tel:+79859301238">+7 (985) 930-12-38</a></p>
+              <p><svg class="icon" width="20" height="20"><use href="#i-mail"></use></svg> <a href="mailto:info@dreamdent.ru">info@dreamdent.ru</a></p>
+            </address>
+            <a class="btn btn--blue" href="https://1dn.su/3hP" target="_blank" rel="noopener">Записаться на приём</a>
+          </div>
+          <div class="contacts__map reveal">
+            <iframe title="Карта проезда к стоматологии ДРИМ" src="https://yandex.ru/map-widget/v1/?text=Москва%2C%20улица%20Чичерина%2C%208к2&z=16" frameborder="0" loading="lazy" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--muted" id="booking">
+      <div class="container">
+        <div class="booking__card reveal">
+          <div class="booking__intro">
+            <span class="eyebrow">Обратный звонок</span>
+            <h2 class="booking__title" style="margin-top:1rem">Запишитесь — и доверьте улыбку заботливым рукам</h2>
+            <p style="margin-top:1rem">Администратор перезвонит, ответит на вопросы и подберёт удобное время.</p>
+            <a class="booking__phone" href="tel:+74954710090">
+              <svg class="icon" width="22" height="22"><use href="#i-phone"></use></svg> +7 (495) 471-00-90
+            </a>
+          </div>
+          <form class="booking__form" action="#" method="post" novalidate>
+            <div class="field">
+              <label class="field__label" for="name">Ваше имя</label>
+              <input class="field__input" type="text" id="name" name="name" autocomplete="name" placeholder="Как к вам обращаться">
+            </div>
+            <div class="field">
+              <label class="field__label" for="phone">Телефон</label>
+              <input class="field__input" type="tel" id="phone" name="phone" autocomplete="tel" placeholder="+7 (___) ___-__-__" required>
+            </div>
+            <label class="checkbox">
+              <input type="checkbox" name="consent" required>
+              <span>Я согласен(а) на обработку персональных данных</span>
+            </label>
+            <button class="btn btn--accent btn--block btn--lg" type="submit">Перезвоните мне</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="dd-bottom"></div>
+
+  <script src="../js/data.js"></script>
+  <script src="../js/site.js"></script>
+</body>
+</html>
